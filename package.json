@@ -1,7 +1,7 @@
 {
   "name": "dsh-wsl-media",
-  "version": "0.1.0",
-  "description": "DeepSeek Harness WSL plugin: ffprobe, PDF text extract, optional whisper ASR for local media files.",
+  "version": "0.2.0",
+  "description": "DeepSeek Harness WSL plugin: ffprobe, ffmpeg extract/thumbnail, PDF, whisper, pandoc, tesseract, exiftool.",
   "license": "MIT",
   "repository": { "type": "git", "url": "https://github.com/173787247/dsh-wsl-media.git" },
   "type": "module",
@@ -9,6 +9,6 @@
   "engines": { "node": ">=18" },
   "scripts": { "test": "node --test test/*.test.js" },
   "files": ["index.js", "lib", "cordis.patch.yml", "README.md", "README.en.md", "README.zh.md", "LICENSE", "CHANGELOG.md"],
-  "keywords": ["dsh-plugin", "wsl", "ffmpeg", "pdf", "whisper"],
+  "keywords": ["dsh-plugin", "wsl", "ffmpeg", "pdf", "whisper", "pandoc"],
   "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
 }
