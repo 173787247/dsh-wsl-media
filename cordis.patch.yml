@@ -1,0 +1,8 @@
+- insert:
+    - id: dsh-wsl-media
+      name: dsh-wsl-media
+      config:
+        enabled: true
+        timeoutMs: 120000
+        maxPdfChars: 100000
+        allowRoots: []
