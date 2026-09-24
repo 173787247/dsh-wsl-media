@@ -39,6 +39,15 @@ kit 批量链接（可选）：`bash dsh-wsl-kit/scripts/link-linux-plugins.sh`
 
 路径必须在 allowRoots（默认含家目录、`/tmp`、`/mnt/c|d`）。
 
+## 兼容性
+
+| 字段 | 值 |
+|------|----|
+| **插件** | `dsh-wsl-media` **0.2.0** |
+| **最低 dsh** | ≥ **0.1.2**（Web UI 一次性 `?token=`，Windows 中继 `:3081`） |
+| **最新验证** | 以 [dsh-wsl-kit 兼容性](https://github.com/173787247/dsh-wsl-kit#compatibility-2026-09) 为准（当前 **`0.1.7-alpha.2`**）— 套件唯一真源 |
+| **套件档位** | 可选（默认不在 `install.sh` / `KIT_SET=daily`） |
+
 ## License
 
 MIT
