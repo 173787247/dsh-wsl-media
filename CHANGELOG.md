@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.1
+
+- Default allowRoots also includes `~/.dsh/im-workspace` (when present), so IM voice/inbox paths work with media tools without extra config.
+
 ## 0.2.0
 
 - `media_extract_audio` / `media_thumbnail` (ffmpeg)
